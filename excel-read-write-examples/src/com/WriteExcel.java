@@ -1,6 +1,6 @@
 package com;
 
-import java.io.FileNotFoundException;
+
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Map;
@@ -9,7 +9,7 @@ import java.util.TreeMap;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Workbook;
+
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
@@ -23,7 +23,7 @@ public class WriteExcel {
 		
 		//create workbook object
 		
-		//Workbook wb=new XSSFWorkbook();
+		
 		
 
 		
@@ -35,13 +35,13 @@ public class WriteExcel {
 		
 		data.put ("1", new Object[] {"Id", "Name", "LastName"});
 		
-		data.put( "2", new Object[] { 1, "Pranoti", "Sawarkar"});
+		data.put( "2", new Object[] { 1, "Pranoti", "thorat"});
 		
-	    data.put( "3", new Object[] {2, "Pragati", "Sawarkar" });
+	    data.put( "3", new Object[] {2, "Pragati", "chaudhari" });
 	    
 	    data.put( "4", new Object[] {2, "Pallavi", "Dudurkar" });
 	    
-	    data.put( "5", new Object[] {2, "Shubham", "Sawarkar" });
+	    data.put( "5", new Object[] {2, "Shubham", "jadhav" });
 	    
 	    
 	     Set<String> setOfKeys  = data.keySet();
