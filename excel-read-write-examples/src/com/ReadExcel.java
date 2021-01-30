@@ -1,14 +1,14 @@
 package com;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+
 import java.io.IOException;
 import java.util.Iterator;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
+
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ReadExcel {
@@ -35,9 +35,7 @@ public class ReadExcel {
 		
 		Iterator<Row> itrrow = sheet.rowIterator();
 		
-		while(itrrow.hasNext()) {
-			
-		}
+		
 		
 		//read row from sheet
 		
@@ -45,10 +43,7 @@ public class ReadExcel {
 		            
 		 Iterator<Cell> cells = row.cellIterator();
 		 
-		 while(cells.hasNext()) {
-			 
-			 
-		 }
+		
 		     //read cell by row
 		
 		      Cell cell = cells.next();
